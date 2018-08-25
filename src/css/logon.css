@@ -1,0 +1,91 @@
+body, html { width: 100%; height: 100%; }
+
+.form .top { height: 93px; width: 980px; margin: 0 auto; postion: relative; }
+
+.form .man { height: 443px; width: 970px; margin: 0 auto; border: 3px solid #ccc; }
+
+.form .man .man1 { width: 370px; float: left; height: 443px; }
+
+.man1 { width: 300px; height: 358px; float: left; font-size: 14px; color: #555; padding: 50px 0 0 44px; }
+
+.man1 .dv1 { height: 25px; width: 300px; }
+
+.man1 .dv1 .span1 { float: left; }
+
+.man1 .dv1 .span2 { float: right; color: red; }
+
+.man1 .dv2 { height: 30px; width: 300px; border: 1px solid #ccc; margin-bottom: 10px; }
+
+.man1 .dv2 i { padding-left: 5px; float: left; padding-top: 5px; }
+
+.man1 .dv2 input { float: right; height: 100%; width: 270px; }
+
+.man1 .dv3 { height: 25px; width: 300px; margin: 30px 0 0  0; }
+
+.man1 .dv3 .span3 { float: left; }
+
+.man1 .dv3 .span5 { float: right; }
+
+.man1 .dv4 { height: 30px; width: 300px; margin-bottom: 30px; background: red; text-align: center; line-height: 30px; }
+
+.man1 .dv4 a { text-decoration: none; color: #fff; }
+
+.man1 .dv5 { width: 300px; padding-top: 10px; border-top: 2px solid #ccc; }
+
+.man1 .dv5 p { text-align: center; padding: 10px; }
+
+.man1 .dv5 p a { display: block; text-decoration: none; margin: 0 22px; width: 22px; height: 20px; float: left; color: blue; }
+
+.man1 .dv5 p a i { width: 100%; height: 100%; font-size: 32px; }
+
+.man2 { width: 555px; height: 400px; float: right; }
+
+.man2 img { width: 100%; height: 100%; }
+
+.foot { width: 100%; background: #f00; margin-top: 100px; padding-top: 20px; padding-bottom: 10px; color: #FFFFFF; }
+
+.foot .wf { width: 100%; height: 190px; margin: 0 auto; color: #FFFFFF; }
+
+.foot .wf .footerMode { float: left; width: 140px; padding-right: 20px; }
+
+.foot .wf .footerMode h3.bt1 { background: url(//imgcdn.baiji.com.cn/bj_img/b1.gif) left top no-repeat; }
+
+.foot .wf .footerMode h3 { height: 30px; padding-left: 36px; font-size: 14px; font-weight: bold; color: #FFFFFF; }
+
+.foot .wf .footerMode ul { padding-left: 34px; }
+
+ul, li, dl, dd, input { list-style: none; padding-left: 0px; margin-left: 0px; text-indent: 0px; margin: 0px; padding: 0px; }
+
+.foot .wf .footerMode ul li { height: 22px; background: url(//imgcdn.baiji.com.cn/bj_img/whitedot.gif) left center no-repeat; padding-left: 8px; }
+
+.foot .wf .footerMode h3.bt2 { background: url(//imgcdn.baiji.com.cn/bj_img/b2.gif) left top no-repeat; }
+
+.foot .wf .footerMode h3.bt3 { background: url(//imgcdn.baiji.com.cn/bj_img/b3.gif) left top no-repeat; }
+
+.foot .wf .footerMode h3.bt4 { background: url(//imgcdn.baiji.com.cn/bj_img/b4.gif) left top no-repeat; }
+
+.foot .wf .footerMode h3.bt5 { background: url(//imgcdn.baiji.com.cn/bj_img/b5.gif) left top no-repeat; }
+
+.foot .wf .footerMode h3.bt6 { background: url(//imgcdn.baiji.com.cn/bj_img/b6.gif) left top no-repeat; }
+
+ul, li, dl, dd, input { list-style: none; padding-left: 0px; margin-left: 0px; text-indent: 0px; margin: 0px; padding: 0px; }
+
+.foot .wf .footerMode ul li a { color: #ffbec1; font-size: 12px; }
+
+.foot .wf .footerMode ul li a:hover { text-decoration: underline; color: #fff; }
+
+.ban { height: 128px; }
+
+.ban .ban1 { line-height: 30px; text-align: center; margin: 0 auto; }
+
+.ban .ban1 p a { padding: 5px 5px; color: red; font-size: 12px; }
+
+.ban .ban1 p a:hover { text-decoration: underline; }
+
+.ban2 { display: inline; float: left; line-height: 20px; margin-left: 100px; text-align: right; font-size: 12px; }
+
+.ban2 a { font-size: 12px; }
+
+.bottom-info a { color: #656565; font-size: 12px; }
+
+.ban3 { display: inline-block; width: 130px; float: right; margin-right: 400px; margin-top: 20px; }

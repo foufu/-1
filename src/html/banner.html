@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>轮播图插件</title>
+    <link rel="stylesheet" type="text/css" href="lib/jQuery.wdcarousel/jQuery.wdcarousel.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <!-- <script type="text/javascript" src="common.js"></script> -->
+    <script type="text/javascript" src="lib/jQuery.wdcarousel/jQuery.wdcarousel.js"></script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $('.banner').wdcarousel({
+                ele: '.banner',
+                width: 600,
+                height: 200,
+                type: 'horizontal',
+                seamless: false,
+                imgs: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"]
+            });
+
+            $('.box').wdcarousel({
+                ele: '.box',
+                width: 600,
+                height: 200,
+                type: 'fade',//horizontal,vertical,fade
+                pageNum:true,
+                seamless: true,
+                imgs: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"]
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class='banner'></div>
+    <div class="box"></div>
+</body>
+</html>
