@@ -37,8 +37,6 @@
 		}
 
 
-
-
 		$str=json_encode($jarr,JSON_UNESCAPED_UNICODE);
 		echo $str;
 		//将数组进行json编码

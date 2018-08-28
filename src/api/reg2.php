@@ -3,8 +3,6 @@
 // 引入connect.php
 include 'connect.php';
 
-
-
     // 接口功能：验证用户是否存在
     // 所需参数:username
     		// password
@@ -20,10 +18,9 @@ include 'connect.php';
 
 
 	// 执行sql语句写入数据库
-	$result = $conn->query($sql);
+	$result = query_oop($sql);
 
-
-
+    // 判断成功或者失败：返回给前端
     if($result){
     	echo "success";
     }else{

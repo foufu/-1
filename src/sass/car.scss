@@ -174,9 +174,11 @@ body{background:F8F8F8;}
 	.wwbox{width:914px;height:100%;float:left;overflow:hidden;
 		.fdj{margin:0;width:914px;height:576px;overflow:hidden;
 			.fdj_l{float:left;width:382px;height:576px;
-				.s{width:380px;height:380px;border:1px solid #ccc;}
+				.s{width:380px;height:380px;border:1px solid #ccc;
+					img{display:block;width:100%;height:100%;}
+				}
 				.x{width:380px;height:189px;
-					.x_baer{height:91px;width:382px;margin:20px auto 0 auto;
+					.x_baer{height:91px;width:382px;margin:20px auto 0 auto;padding-top:20px;border:1px solid #ccc;
 							.i1{float:left;width:36px;height:91px;line-height:66px;
 								i{font-size:32px;}
 							}
@@ -197,7 +199,12 @@ body{background:F8F8F8;}
 			
 		}
 
-		.fdj_r{width:482px;height:477px;float:left;margin-left:15px;}
+		.fdj_r{width:482px;height:477px;float:left;margin-left:15px;
+			.introduce{height:270px;width:482px;margin-top:30px;
+				p{height:50px;}
+				span{padding-left:20px;height:30px;width:482px;line-height:30px;color:red;font-size:20px;}
+			}
+		}
 	}
 
 	.chain{width:275px;height:100%;border-left:1px solid #ccc;float:right;background:blue;}

@@ -9,7 +9,7 @@ jQuery($=>{
 			type:'POST',
 			data:{user:text,passd:pass},
 			success:function(res){
-				console.log(res);
+				// console.log(res);
 				if(res === '{status: true}'){
 					window.location.href = '../index.html';
 				}

@@ -178,9 +178,11 @@ body { background: F8F8F8; }
 
 .zoom .wwbox .fdj .fdj_l .s { width: 380px; height: 380px; border: 1px solid #ccc; }
 
+.zoom .wwbox .fdj .fdj_l .s img { display: block; width: 100%; height: 100%; }
+
 .zoom .wwbox .fdj .fdj_l .x { width: 380px; height: 189px; }
 
-.zoom .wwbox .fdj .fdj_l .x .x_baer { height: 91px; width: 382px; margin: 20px auto 0 auto; }
+.zoom .wwbox .fdj .fdj_l .x .x_baer { height: 91px; width: 382px; margin: 20px auto 0 auto; padding-top: 20px; border: 1px solid #ccc; }
 
 .zoom .wwbox .fdj .fdj_l .x .x_baer .i1 { float: left; width: 36px; height: 91px; line-height: 66px; }
 
@@ -199,6 +201,12 @@ body { background: F8F8F8; }
 .zoom .wwbox .fdj .fdj_l .x .x_p { height: 98px; }
 
 .zoom .wwbox .fdj_r { width: 482px; height: 477px; float: left; margin-left: 15px; }
+
+.zoom .wwbox .fdj_r .introduce { height: 270px; width: 482px; margin-top: 30px; }
+
+.zoom .wwbox .fdj_r .introduce p { height: 50px; }
+
+.zoom .wwbox .fdj_r .introduce span { padding-left: 20px; height: 30px; width: 482px; line-height: 30px; color: red; font-size: 20px; }
 
 .zoom .chain { width: 275px; height: 100%; border-left: 1px solid #ccc; float: right; background: blue; }
 

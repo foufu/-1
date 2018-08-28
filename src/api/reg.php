@@ -17,11 +17,11 @@
 	$sql = "select * from username where name='$username'";
 
 	// 执行sql语句
-	$result = $conn->query($sql);
+	$result = query_oop($sql);
 
 
 
-	if($result->num_rows>0){
+	if($result){
 		echo "no";
 	}else{
 		echo "yes";
